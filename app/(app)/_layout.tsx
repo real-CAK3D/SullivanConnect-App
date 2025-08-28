@@ -104,7 +104,6 @@ export default function AppLayout() {
       <Tabs.Screen
         name="profile/index"
         options={{
-          href: null,
           tabBarButton: () => null,
           title: 'Profile',
           headerLeft: () => (
@@ -119,7 +118,6 @@ export default function AppLayout() {
       <Tabs.Screen
         name="inventory/edit"
         options={{
-          href: null,
           tabBarButton: () => null,
           title: 'Edit Item',
         }}
